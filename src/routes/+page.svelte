@@ -1,5 +1,8 @@
 <script>
-	import { xterm } from '../lib/xterm.js';
+	export const ssr = false;
+	import Terminal from '../components/terminal/Terminal.svelte';
 </script>
 
-<div use:xterm={'Hello terminal user!'} />
+<main>
+	<Terminal />
+</main>
